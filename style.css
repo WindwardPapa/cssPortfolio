@@ -1,0 +1,65 @@
+
+#home{
+    background-color: rgb(255, 251, 230);
+}
+
+.navibar{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    background-color: rgb(234, 249, 196);
+    justify-content: space-between;
+}
+.navibar-2{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    background-color: rgb(234, 249, 196);
+}
+
+h1{
+    font-family: 'manrope', sans-serif;
+}
+#hello{
+    font-size: 1.5rem;
+}
+#akshit{
+    font-size: 5rem;
+    color: rgb(117, 121, 1);
+}
+.pos{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+
+footer{
+    background-color: rgb(234, 249, 196);
+}
+
+footer img{
+    margin-bottom: 3px;
+}
+
+.animatedbg {
+    background: linear-gradient(300deg, #f2f988, rgb(234, 249, 196), #81ef72);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    } 
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+
+
